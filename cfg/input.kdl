@@ -4,16 +4,10 @@
 input {
     keyboard {
         xkb {
-            //If you want to overwrite your keyboard layout,
-            // uncomment the line below and change the layout accordingly.
-            //layout "us" // Use the American keyboard layout
+            layout "us, br"
+            variant "intl,"
+            options "grp:alt_shift_toggle" // Alterna com Alt + Shift
         }
-        numlock // Enable numlock on startup
-    }
-
-    touchpad {
-        // tap // Enable tap-to-click
-        // natural-scroll // Enable natural (macOS-style) scrolling
     }
 
     mouse {
